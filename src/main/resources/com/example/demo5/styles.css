@@ -1,0 +1,20 @@
+.root{
+    -fx-font: bold 20pt "Arial";
+    -fx-background-image: url("images/windows_xp_bliss-wide.jpg");
+    -fx-background-size: cover;
+
+}
+.button {
+    -fx-background-color: #87CEEB;
+    -fx-text-fill: Black;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 20px;
+    -fx-font-size: 18px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #45a049;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}

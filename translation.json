@@ -1,0 +1,1 @@
+{"data":{"translations":[{"translatedText":"Buongiorno"}]}}]}}"}]}}t exist"} Value","domain":"global","reason":"invalid"}],"details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"model","description":"model: Good"}]}]}}
