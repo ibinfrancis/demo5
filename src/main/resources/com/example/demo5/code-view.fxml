@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass=".base" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.LanguageCodeController">
+    <children>
+        <VBox layoutX="147.0" layoutY="28.0" prefHeight="350.0" prefWidth="311.0">
+            <children>
+                <ListView fx:id="languageListView" prefHeight="236.0" prefWidth="311.0" styleClass="listview" />
+                <Button mnemonicParsing="false" onAction="#getCode" prefHeight="44.0" prefWidth="239.0" text="Get Language Code">
+                    <VBox.margin>
+                        <Insets left="30.0" top="25.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+        <Button fx:id="backButton" layoutX="34.0" layoutY="327.0" mnemonicParsing="false" onAction="#returnToMain" styleClass="backbutton" text="Back" />
+    </children>
+</AnchorPane>

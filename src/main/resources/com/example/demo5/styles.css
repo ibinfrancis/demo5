@@ -6,9 +6,9 @@
 }
 .button {
     -fx-background-color: #87CEEB;
-    -fx-text-fill: Black;
+    -fx-text-fill: #000000;
     -fx-padding: 10px 20px;
-    -fx-border-radius: 20px;
+    -fx-border-radius: 13px;
     -fx-font-size: 18px;
     -fx-background-radius: 20px;
     -fx-border-color: #45a049;
@@ -17,4 +17,33 @@
 
 .button:hover {
     -fx-background-color: #45a049;
+}
+
+.textfield {
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 16px;
+    -fx-border-radius: 10px;
+}
+#sourceTextArea, #targetTextArea {
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 20px;
+    -fx-border-radius: 8px;
+    -fx-alignment: center;
+}
+
+#translatedLabel {
+    -fx-text-fill: #000000;
+    -fx-font-size: 16px;
+}
+
+.backbutton {
+    -fx-background-color: #FF0000;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 20px;
+}
+
+.listview {
+    -fx-background-radius: 20px;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
 }

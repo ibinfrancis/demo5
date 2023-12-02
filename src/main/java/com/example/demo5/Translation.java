@@ -6,6 +6,7 @@ public class Translation {
     @SerializedName("translatedText")
     private String translatedText;
 
+    // Getter method to retrieve the translated text
     public String getTranslatedText() {
         return translatedText;
     }
